@@ -1,0 +1,13 @@
+<div class ="text-center">
+</div>
+<ul class ="list-group">
+    <% @asks.reverse.each do |ask| %>
+    <li class ="list-group-item"><%= ask.question %>
+    <small>(<%=ask.ipaddress%>, <%=ask.region%>)</small>
+        <a href = "/ask/<%=ask.id%>/show" class="btn btn-success">내용보기</a>
+        <a href= "/ask/<%= ask.id %>/edit" class = "btn btn-primary">수정</a>
+        <a a data-confirm="해당 글을 삭제하시겠습니까?" 
+        class ="btn btn-danger" href = "ask/<%= ask.id%>/delete">삭제</a>
+    </li>
+    <% end %>
+</ul>

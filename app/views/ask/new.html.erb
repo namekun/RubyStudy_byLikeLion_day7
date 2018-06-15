@@ -1,0 +1,9 @@
+<div class="form-group">
+<form action="/ask/create" method ="POST">
+    <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+    <label for="InputQuestion">질문하세요</label>
+    <input class ="form-control" type= "text" name ="question" placeholder="새로운 질문을 입력해주세요!">
+    <input class = "btn btn-dark" type="submit" name="질문제출">
+</form>
+</div>
+

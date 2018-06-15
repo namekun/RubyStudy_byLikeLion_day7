@@ -1,0 +1,9 @@
+<div class="form-group">
+<form action= "/ask/<%=@ask.id%>/update" method ="POST">
+    <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+    <label for="InputQuestion">수정하세요</label>
+    <input class ="form-control" type= "text" name ="question" value="<%=@ask.question%>">
+    <input class = "btn btn-dark" type="submit" name="질문제출">
+</form>
+</div>
+
