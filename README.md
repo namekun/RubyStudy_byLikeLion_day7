@@ -712,11 +712,11 @@ end
       </div>
 
       <div class="form-label-group">
-        <input type="msg" name="board" class="form-control" placeholder="뻘글을 싸지르세요!" required="">
+        <input type="msg" name="board" class="form-control" placeholder="내용을 입력하세요!" required="">
         <br/>
       </div>
     <div>
-      <button class="btn btn-lg btn-primary btn-block" type="submit">싸지르기! 끼요오옷!</button>
+      <button class="btn btn-lg btn-primary btn-block" type="submit">트윗 날립니다!</button>
       <p class="mt-5 mb-3 text-muted text-center">© 2018</p>
     </div>
     </form>
@@ -734,7 +734,7 @@ end
       <div class="text-center mb-4">
         <img class="mb-4" src="https://getbootstrap.com/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
         <h1 class="h3 mb-3 font-weight-normal">수정할 내용이 있나요?</h1>
-        <p>그렇다면 얼른 다른 개소리로 바꿔주세요!</p>
+        <p>그렇다면 얼른 바꿔주세요!</p>
       </div>
 
       <div class="form-label-group">
@@ -742,7 +742,7 @@ end
         <label for="inputEmail">Email address</label>
       </div>
 
-      <button class="btn btn-lg btn-primary btn-block" type="submit">뻘글 일발장전! 발사!</button>
+      <button class="btn btn-lg btn-primary btn-block" type="submit">다시 트윗날립니다!</button>
       <p class="mt-5 mb-3 text-muted text-center">©2018</p>
     </form>
   
@@ -758,7 +758,7 @@ end
     <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
       <div class="text-center mb-4">
         <img class="mb-4" src="https://getbootstrap.com/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
-        <h1 class="h3 mb-3 font-weight-normal">개소리를 더 보여드리겠습니다.</h1>
+        <h1 class="h3 mb-3 font-weight-normal">해당 트윗의 상세 내역입니다.</h1>
       </div>
    <div class = "text-center container">
    <nav aria-label="breadcrumb">
